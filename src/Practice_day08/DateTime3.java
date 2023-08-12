@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
     // gün saat dakika saniye olarak yazdırın
 public class DateTime3 {
         public static void main(String[] args) {
-            LocalDateTime startDate = LocalDateTime.of(2010,10,17,18,00);
+            LocalDateTime startDate = LocalDateTime.of(2010,10,17,15,00);
             LocalDateTime currentDate = LocalDateTime.now();
 
             Duration duration = Duration.between(startDate,currentDate);
