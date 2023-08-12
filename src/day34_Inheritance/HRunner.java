@@ -21,5 +21,6 @@ public class HRunner {
         // hayvanlar class'ından aldığı özellikler
         avciKusKartal.omur();  // yasar ve olurler
 
+
     }
 }

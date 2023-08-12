@@ -85,5 +85,7 @@ public class WiseMarket_ {
         public static void cikis() {
             System.out.println(" Çıkış Ekranı");girisEkrani();
         }
+
+
     }
 
