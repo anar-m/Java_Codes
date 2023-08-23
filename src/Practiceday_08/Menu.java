@@ -3,11 +3,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Menu {
-    Scanner scan=new Scanner(System.in);
-    ArrayList<User> kullanicilar=new ArrayList<>();
-    Registration registration=new Registration();
+    static Scanner scanner=new Scanner(System.in);
+    static ArrayList<User> kullanicilar=new ArrayList<>();
+    static Registration registration=new Registration();
 
-    void menu(){
+    public static void menu(){
         /*
         -kayıt alma
         -şanslı kullanıcı
@@ -21,7 +21,7 @@ public class Menu {
                     "3. Şanslı Kişiler\n" +
                     "4. Çıkış\n" +
                     "SEÇİMİZ: ");
-            int secim=scan.nextInt();
+            int secim=scanner.nextInt();
             switch (secim){
                 case 1:
                     kullanicilar=Registration.register();

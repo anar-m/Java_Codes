@@ -1,4 +1,4 @@
-package day38_abstractClasses;
+package day36_InheritanceDataTypeKullanimi;
 
 public class Variable_Icin_Inheritance {
     // (Bu kısım day36 ders tekrarı)
