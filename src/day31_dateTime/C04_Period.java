@@ -9,7 +9,7 @@ public class C04_Period {
         // kullanıcının yaşını gün ve ay olarak yazdıran
         // bir program hazırlayın
 
-        LocalDate dogumgunu = LocalDate.of(2000,9,9);
+        LocalDate dogumgunu = LocalDate.of(2006,4,29);
         LocalDate bugun = LocalDate.now();
 
         System.out.println(Period.between(dogumgunu,bugun)); // P 43Y 1M 22D
