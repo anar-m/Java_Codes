@@ -1,0 +1,6 @@
+Görevler:
+1. Dikdörtgenler prizması , küp ve küre class'ları şeklinde en az 3 tane class'ımız olsun.
+2. 2 adet interface olsun. Burada alan ve hacim methodları olsun(interface'leri daha iyi kavramamız için)
+3. Bu class'ları kullanarak bu geometrik cisimlerin alan ve hacimlerini hesaplayan class'ları creat ediniz?
+kürenin hacmi   V = 4/3 πr³
+kürenin yüzey alanı  YA = 4πr²
