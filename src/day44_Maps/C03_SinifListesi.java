@@ -8,9 +8,9 @@ public class C03_SinifListesi {
         ÖğrenciMap'te sınıf ve şube verdiğimizde
         o sınıfta bulunan öğrenci isim ve soyisimlerini yazdırın
          */
-        Map<Integer, String> ogrenciMap = MethodDeposu.ogrenciMapOlustur();
+        Map<Integer, String> ogrenciMap = day44_maps.MethodDeposu.ogrenciMapOlustur();
 
-        MethodDeposu.sinifSubedekiOgrenciListesiYazdir(ogrenciMap, 11, "h");
+        day44_maps.MethodDeposu.sinifSubedekiOgrenciListesiYazdir(ogrenciMap, 11, "h");
 
 
 

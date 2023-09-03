@@ -7,8 +7,8 @@ public class C04_IsimSoyisimIleOgrenciBulma {
         // Öğrenci Map'inde verilen isim ve soyisim'e sahip öğrencileri
         // isim , soyisim , sınıf ve şubelerini yazdırın.
 
-        Map<Integer, String> ogrenciMap = MethodDeposu.ogrenciMapOlustur();
+        Map<Integer, String> ogrenciMap = day44_maps.MethodDeposu.ogrenciMapOlustur();
 
-        MethodDeposu.isimSoyisimIleOgrenciBul(ogrenciMap,"ALI", "CAN");
+        day44_maps.MethodDeposu.isimSoyisimIleOgrenciBul(ogrenciMap,"ALI", "CAN");
     }
 }

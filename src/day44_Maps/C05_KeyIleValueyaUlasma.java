@@ -1,19 +1,19 @@
-package day44_Maps;
+package day44_maps;
 
 import java.util.Map;
 
 public class C05_KeyIleValueyaUlasma {
+
     public static void main(String[] args) {
 
-        // numarası verilen öğrencinin isim, soyisim, sınıf ve şubesini yazdırın
+        // numarasi verilen ogrencinin isim, soyisim, sinif ve subesini yazdirin
 
-        Map<Integer, String> ogrencimap = MethodDeposu.ogrenciMapOlustur();
+        Map<Integer, String> ogrenciMap = day44_maps.MethodDeposu.ogrenciMapOlustur();
 
-        System.out.println(ogrencimap.get(102)); // Veli-Cem-10-K-TM
-        System.out.println(ogrencimap.get(105)); // Sevgi-Cem-11-M-TM
-        System.out.println(ogrencimap.get(123)); // null
+        System.out.println(ogrenciMap.get(102)); // Veli-Cem-10-K-TM
+        System.out.println(ogrenciMap.get(105)); // Sevgi-Cem-11-M-TM
+        System.out.println(ogrenciMap.get(123)); // null
 
-        MethodDeposu.numaraIleOgrenciBilgisiYazdirma(ogrencimap,103);
-
+        day44_maps.MethodDeposu.numaraIleOgrenciBilgisiyazdirma(ogrenciMap,103);
     }
 }
