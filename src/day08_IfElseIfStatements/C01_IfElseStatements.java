@@ -1,6 +1,6 @@
 package day07_ifStatements;
 
-public class C01_BagimsizIfCumleleri {
+public class C01_IfElseStatements {
 
     public static void main(String[] args) {
         /*
@@ -33,6 +33,10 @@ public class C01_BagimsizIfCumleleri {
 
         if (a+b>100){ // false
             System.out.println("sayilarin toplami 100'den buyuk");
+        }
+
+        if (b % 3 == 0){ // false
+            System.out.println("b 3 ile tm bolunen bir tamsayidir");
         }
 
         if (b<100){ // false
